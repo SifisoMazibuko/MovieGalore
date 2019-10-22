@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ErrorPageComponent } from './error-page/error-page.component';
     HomePageComponent,
     MovieDetailComponent,
     NavbarComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
