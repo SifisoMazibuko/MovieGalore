@@ -1,1 +1,22 @@
-<p>movie-detail works!</p>
+  <div >
+    &nbsp;
+    <div class="row">
+      <div class="col-md-6">
+          <img src="{{movie.image}}" [alt]="movie.title"  height="80%" width="100%">
+      </div>
+      <div class="col-md-6" style="padding-right:8px">
+          <h2>{{movie.title}} </h2>
+          <div><strong>Genre:</strong> {{movie.genre}} </div>
+          <div><strong>Director:</strong> </div>
+          <div><strong>Actors:</strong> </div>
+          <div><strong>Rating:</strong> </div>
+          <div><strong>Runtime:</strong> </div>
+          <br/>
+        <p>{{movie.description}}<br /></p>
+        <p>Like<span class="glyphicon glyphicon-heart"></span></p>
+      </div>
+      
+    </div>
+  </div>
+
+

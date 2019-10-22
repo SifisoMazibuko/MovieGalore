@@ -1,1 +1,13 @@
-<p>home-page works!</p>
+<div>
+  <h1>Movies</h1>
+  <hr/>
+  <div class="row">
+    <div class="column">
+        <div *ngFor="let movie of movies" class="col-md-4" >
+            <img [routerLink]="movie.id" src="{{movie.image}}">
+          <h4>{{movie.title}} | {{movie.releaseYear}}</h4>
+        </div>
+    </div>
+
+  </div>
+</div>

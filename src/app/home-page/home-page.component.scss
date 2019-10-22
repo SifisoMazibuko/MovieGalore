@@ -1,0 +1,13 @@
+img {
+  max-width: 80%;
+}
+
+.row::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.column {
+  float: left;
+  padding: 2px;
+}
