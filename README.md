@@ -1,3 +1,7 @@
+#Netlify 
+
+https://ecstatic-wescoff-f8b4ee.netlify.com/
+
 # MovieGalore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
